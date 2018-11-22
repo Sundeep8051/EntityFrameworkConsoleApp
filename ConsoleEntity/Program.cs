@@ -13,11 +13,12 @@ namespace ConsoleEntity
             using (var context = new MusicStoreDBContext())
             {
                 var albums = context.Albums;
-                //Album a1 = new Album {
-                //    Title = "Album2", 
-                //    Price = 20
-                //};
-                //context.Albums.Add(a1);
+                Album a1 = new Album
+                {
+                    Title = "Album2",
+                    Price = 20
+                };
+                context.Albums.Add(a1);
                 //context.SaveChanges();
 
                 Console.WriteLine(albums.Count());
