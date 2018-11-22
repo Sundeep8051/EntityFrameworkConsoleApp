@@ -16,7 +16,7 @@ namespace ConsoleEntity
                 Album a1 = new Album
                 {
                     Title = "Album2",
-                    Price = 20
+                    Price = 200
                 };
                 context.Albums.Add(a1);
                 //context.SaveChanges();
